@@ -67,7 +67,6 @@ function App() {
         // else{
         //     setSearchResults(robot);
         // }
-        console.log(results,searchResults)
     }, [searchfield]);
 
 
