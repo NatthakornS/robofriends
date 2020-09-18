@@ -9,7 +9,7 @@ function SearchBox({searchfield, searchChange}) {
     return (
         <div>
             <input 
-                class='pa2 bg-b'
+                className='pa2 bg-b'
                 type='search'
                 placeholder='Search robots'
                 onChange={searchChange}

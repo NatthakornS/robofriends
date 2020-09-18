@@ -52,7 +52,6 @@ function App() {
                 (users) => {
                     setRobot(users);
                     // setSearchResults(users);
-                    console.log('api')
 
                 })
     });
@@ -74,8 +73,8 @@ function App() {
 
 
     return (
-        <div class='tc'>
-            <h1 class='tc f1'>Hello friends</h1>
+        <div className='tc'>
+            <h1 className='tc f1'>Hello friends</h1>
             <SearchBox searchChange={onSearchChange}/>
             <Scroll>
                 <CardList 
